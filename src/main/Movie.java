@@ -511,6 +511,7 @@ public class Movie extends javax.swing.JInternalFrame {
             fos.write(byt);
             ImageIcon icon = new ImageIcon(byt);
             l_photo.setIcon(icon);
+            path2 =path;
         } catch (Exception E) {
             System.out.println("UNABLE TO LOAD DATA FROM TABLE CHACK TABLE CLICK EVENTS");
         }
